@@ -1,0 +1,6 @@
+C:\Users\ambid\Documents\Coding\cSharpTutorials\tutorial1\c-sharp-tutorial-1\c-sharp-tutorial-1\bin\Debug\c-sharp-tutorial-1.exe.config
+C:\Users\ambid\Documents\Coding\cSharpTutorials\tutorial1\c-sharp-tutorial-1\c-sharp-tutorial-1\bin\Debug\c-sharp-tutorial-1.exe
+C:\Users\ambid\Documents\Coding\cSharpTutorials\tutorial1\c-sharp-tutorial-1\c-sharp-tutorial-1\bin\Debug\c-sharp-tutorial-1.pdb
+C:\Users\ambid\Documents\Coding\cSharpTutorials\tutorial1\c-sharp-tutorial-1\c-sharp-tutorial-1\obj\Debug\c-sharp-tutorial-1.csprojAssemblyReference.cache
+C:\Users\ambid\Documents\Coding\cSharpTutorials\tutorial1\c-sharp-tutorial-1\c-sharp-tutorial-1\obj\Debug\c-sharp-tutorial-1.exe
+C:\Users\ambid\Documents\Coding\cSharpTutorials\tutorial1\c-sharp-tutorial-1\c-sharp-tutorial-1\obj\Debug\c-sharp-tutorial-1.pdb

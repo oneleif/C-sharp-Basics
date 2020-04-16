@@ -1,0 +1,11 @@
+C:\Users\ambid\Documents\Coding\C-sharp-Basics\c-sharp-tutorial-2\c-sharp-tutorial-2\bin\Release\netcoreapp3.1\c-sharp-tutorial-2.exe
+C:\Users\ambid\Documents\Coding\C-sharp-Basics\c-sharp-tutorial-2\c-sharp-tutorial-2\bin\Release\netcoreapp3.1\c-sharp-tutorial-2.deps.json
+C:\Users\ambid\Documents\Coding\C-sharp-Basics\c-sharp-tutorial-2\c-sharp-tutorial-2\bin\Release\netcoreapp3.1\c-sharp-tutorial-2.runtimeconfig.json
+C:\Users\ambid\Documents\Coding\C-sharp-Basics\c-sharp-tutorial-2\c-sharp-tutorial-2\bin\Release\netcoreapp3.1\c-sharp-tutorial-2.runtimeconfig.dev.json
+C:\Users\ambid\Documents\Coding\C-sharp-Basics\c-sharp-tutorial-2\c-sharp-tutorial-2\bin\Release\netcoreapp3.1\c-sharp-tutorial-2.dll
+C:\Users\ambid\Documents\Coding\C-sharp-Basics\c-sharp-tutorial-2\c-sharp-tutorial-2\bin\Release\netcoreapp3.1\c-sharp-tutorial-2.pdb
+C:\Users\ambid\Documents\Coding\C-sharp-Basics\c-sharp-tutorial-2\c-sharp-tutorial-2\obj\Release\netcoreapp3.1\c-sharp-tutorial-2.csprojAssemblyReference.cache
+C:\Users\ambid\Documents\Coding\C-sharp-Basics\c-sharp-tutorial-2\c-sharp-tutorial-2\obj\Release\netcoreapp3.1\c-sharp-tutorial-2.AssemblyInfoInputs.cache
+C:\Users\ambid\Documents\Coding\C-sharp-Basics\c-sharp-tutorial-2\c-sharp-tutorial-2\obj\Release\netcoreapp3.1\c-sharp-tutorial-2.AssemblyInfo.cs
+C:\Users\ambid\Documents\Coding\C-sharp-Basics\c-sharp-tutorial-2\c-sharp-tutorial-2\obj\Release\netcoreapp3.1\c-sharp-tutorial-2.dll
+C:\Users\ambid\Documents\Coding\C-sharp-Basics\c-sharp-tutorial-2\c-sharp-tutorial-2\obj\Release\netcoreapp3.1\c-sharp-tutorial-2.pdb

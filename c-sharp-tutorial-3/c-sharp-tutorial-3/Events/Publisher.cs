@@ -20,6 +20,10 @@ class Publisher
         {
             CustomEvent(this, new CustomEventArgs(message));
         }
+
+        // Optional invocation
+        //CustomEvent?.Invoke(this, new CustomEventArgs(message));
+
     }
-    
+
 }

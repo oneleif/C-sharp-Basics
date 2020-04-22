@@ -63,7 +63,7 @@ class LambdaExamples
         Func<int, int> selfSum = param1 => param1 + param1;
         int result = selfSum(x);
 
-        // two or more params requires parentheses around the params
+        // two or more params requires parentheses around the params, this is a TUPLE of parameters
         Func<int, int, double> pow = (param1, param2) => Math.Pow(param1, param2);
         double powResult = pow(x, y);
 

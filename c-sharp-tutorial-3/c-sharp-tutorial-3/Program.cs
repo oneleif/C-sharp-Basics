@@ -39,7 +39,8 @@ class Program
 
 
         // Events
-        EventManager eventManager = new EventManager();
+
+        //EventManager eventManager = new EventManager();
 
     }
 }

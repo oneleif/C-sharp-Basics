@@ -6,9 +6,9 @@ class LambdaExamples
 {
     delegate void TestDelegate(string s);
 
-    static void OldDelegate(string s)
+    static void OldDelegate(string x)
     {
-        Console.WriteLine(s);
+        Console.WriteLine(x);
     }
 
     public static void LambdaVersions()
@@ -45,7 +45,7 @@ class LambdaExamples
 
         var array = new int[] { 10, 20, 30 };
         // Takes in: (array, predicate)
-        var findElement = Array.Find(array, element => element == 20);
+        var findElement = Array.Find(array, asdf => asdf == 20);
         Console.WriteLine(findElement);
     }
 
@@ -80,8 +80,6 @@ class LambdaExamples
         int x = 2;
         int y = 3;
 
-        Action printLine = () => Console.WriteLine("i am an action");
-        printLine();
 
         Func<int, int> selfSum = param1 => {
             int sum = param1 + param1;
@@ -94,8 +92,16 @@ class LambdaExamples
             double exponent = Math.Pow(param1, param2);
             return exponent;
         };
+
         double powResult = pow(x, y);
+        double powResult2 = PowerFunction(x, y);
 
         Console.ReadKey();
+    }
+
+    public static double PowerFunction(int param1, int param2)
+    {
+        double exponent = Math.Pow(param1, param2);
+        return exponent;
     }
 }

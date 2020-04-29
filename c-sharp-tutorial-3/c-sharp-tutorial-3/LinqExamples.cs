@@ -12,7 +12,7 @@ class LinqExamples
     {
         int[] numbers = { 2, 3, 4, 5 };
         var squaredNumbers = numbers.Select(x => x * x); // Uses LINQ
-        Console.WriteLine(string.Join(" ", squaredNumbers));
+        Console.WriteLine(string.Join(",", squaredNumbers));
     }
 
     public static void GetFuncSquares()
@@ -28,7 +28,7 @@ class LinqExamples
     {
         int[] numbers = { 2, 3, 4, 5 };
         int evenCount = numbers.Count(n => n % 2 == 0); // Uses LINQ
-        Console.WriteLine($"there are {evenCount} evens in {string.Join(",", numbers)}");
+        Console.WriteLine($"there are {evenCount} evens in {string.Join(" ", numbers)} ");
     }
 
     public static void TestScores()
@@ -36,7 +36,7 @@ class LinqExamples
         // Create a data source
         int[] scores = new int[] { 55, 99, 100, 72, 93, 85, 79 };
 
-        // Create the query... All collections inherit from IEnumerable of IEnumerable<T>
+        // Create the query... All collections inherit from IEnumerable or IEnumerable<T>
         // IEnumerable interface exposes an enumerator, which allows you to iterate over the type. You could make your own Enumerable
         IEnumerable<int> scoreQuery =
             from score in scores

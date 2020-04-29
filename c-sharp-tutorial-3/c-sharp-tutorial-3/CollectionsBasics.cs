@@ -12,7 +12,7 @@ class CollectionsBasics
 
     public static void ListExample()
     {
-        List<float> lengths = new List<float> { 0.5f, 0.75f };
+        List<float> lengths = new List<float>() { 0.75f } ;
         lengths.Add(1.0f);
         lengths.Add(2.5f);
         lengths.Add(4.0f);
@@ -20,10 +20,11 @@ class CollectionsBasics
         float totalLength = 0;
 
         // You can use a foreach to iterate through any collection
-        foreach(float length in lengths)
-        {
-            totalLength += length;
-        }
+        lengths.ForEach(number => totalLength += number);
+        //foreach (float length in lengths)
+        //{
+        //    totalLength += length;
+        //}
 
         Console.WriteLine(totalLength);
 
@@ -32,22 +33,27 @@ class CollectionsBasics
         int numberOfLengths = lengths.Count;
 
         lengths.Remove(0.75f);
-        lengths.ForEach(number => Console.WriteLine(number));
+
+        
     }
 
-
+    public class Student
+    {
+        public string name;
+        public int percentage;
+    }
     public static void DictionaryExample()
     {
-        Dictionary<string, int> studentScores;
-        studentScores = new Dictionary<string, int>();
-        studentScores.Add("adam", 100);
-        studentScores.Add("steve", 80);
-        studentScores.Add("john", 93);
+        Dictionary<int, Student> studentScores;
+        studentScores = new Dictionary<int, Student>();
+        studentScores.Add(0, new Student());
+        studentScores.Add(1, new Student());
+        studentScores.Add(2, new Student());
 
         int averageScore = 0;
-        foreach(KeyValuePair<string, int> student in studentScores)
+        foreach(KeyValuePair<int, Student> student in studentScores)
         {
-            averageScore += student.Value;
+            averageScore += student.Value.percentage;
         }
 
         averageScore /= studentScores.Count;
@@ -55,10 +61,22 @@ class CollectionsBasics
     }
 
 
-    HashSet<int> uniqueNumbers;
+    public static void HashSetExample()
+    {
+        HashSet<int> uniqueNumbers = new HashSet<int>();
+        uniqueNumbers.Add(1);
+        uniqueNumbers.Add(2);
+        uniqueNumbers.Add(3);
+        uniqueNumbers.Add(1);
+    }
 
-    Queue<int> lineNumbers;
-    Stack<int> stack;
+    
+
+    public static void StackExample()
+    {
+        Queue<int> lineNumbers = new Queue<int>();
+        Stack<int> stack = new Stack<int>();
+    }
 
     //others: SortedDictionary, SortedList, SortedSet
 

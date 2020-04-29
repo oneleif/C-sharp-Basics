@@ -8,8 +8,5 @@ class Dog : Animal
         hoursToHungry = 3;
     }
 
-    public override void MakeNoise()
-    {
-        Console.WriteLine("woof");
-    }
+    
 }

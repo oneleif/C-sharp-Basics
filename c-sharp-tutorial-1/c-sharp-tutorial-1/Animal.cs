@@ -1,5 +1,5 @@
 ﻿using System;
-abstract class Animal
+abstract class Animal : IPrintable
 {
     private bool isHungry;
     protected float hoursToHungry;
@@ -11,7 +11,6 @@ abstract class Animal
     }
 
 
-    public abstract void MakeNoise();
 
 
     public virtual bool CheckHungry()
@@ -30,5 +29,10 @@ abstract class Animal
     public void FeedAnimal()
     {
         hoursSinceFeeding = 0;
+    }
+
+    public void MakeNoise()
+    {
+        throw new NotImplementedException();
     }
 }

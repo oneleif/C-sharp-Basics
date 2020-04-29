@@ -5,10 +5,7 @@ class Zoo
 {
     static void Main(string[] args)
     {
-        List<Animal> Zoo = new List<Animal>();
-        Zoo.Add(new Lion());
-        Zoo.Add(new Dog());
-        Zoo.Add(new Cheetah());
+        List<IPrintable> things = new List<IPrintable>();
 
         while (true)
         {

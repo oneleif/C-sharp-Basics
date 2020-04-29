@@ -23,7 +23,7 @@ class Program
 
         //CollectionsBasics.ListExample();
         //CollectionsBasics.DictionaryExample();
-
+        //CollectionsBasics.HashSetExample();
 
         // LINQ
 
@@ -40,7 +40,7 @@ class Program
 
         // Events
 
-        //EventManager eventManager = new EventManager();
+        EventManager eventManager = new EventManager();
 
     }
 }

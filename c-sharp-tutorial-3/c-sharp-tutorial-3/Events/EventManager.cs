@@ -4,24 +4,33 @@ using System.Text;
 
 class EventManager
 {
+
+    public enum InputValues
+    {
+        Start, moveup, movedown
+    }
+
     public EventManager()
     {
         Publisher publisher = new Publisher();
-        publisher.CustomEvent += CustomEventSubscriber;
-        publisher.CustomEvent += CustomEventSubscriber2;
+        publisher.CustomEvent += PlayerInputSubscriber;
 
-        string userInput = Console.ReadLine();
-        publisher.RaiseCustomEvent(userInput);
+        
+
+        while (true)
+        {
+            string userInput = Console.ReadLine();
+            publisher.RaiseCustomEvent(userInput);
+        }
+        
 
     }
 
-    private void CustomEventSubscriber(object sender, CustomEventArgs args)
+    private void PlayerInputSubscriber(object sender, CustomEventArgs args)
     {
-        Console.WriteLine($"sender: {sender} \n args: {args} \n message: {args.eventMessage}");
-    }
+        if(args.eventMessage == "start")
+        {
 
-    private void CustomEventSubscriber2(object sender, CustomEventArgs args)
-    {
-        Console.WriteLine($"im another subscriber");
+        }
     }
 }
